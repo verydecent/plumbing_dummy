@@ -205,7 +205,7 @@ class App extends Component {
 							<IconButton className={classes.menuButton} color='inherit' aria-label='Menu'>
 								<img
 									className={classes.logo}
-									src={require("../images/Joe's_Plumbing.png")}
+									src={require("./images/Joe's_Plumbing.png")}
 									alt="logo"
 								/>
 							</IconButton>
@@ -268,7 +268,7 @@ class App extends Component {
 							<Paper className={classes.home}>
 								<img
 									className={classes.plumbing}
-									src={require("../images/plumbing.jpg")}
+									src={require("./images/plumbing.jpg")}
 									alt='plumbing'
 								/>
 								<Typography className={classes.title}>
@@ -282,7 +282,7 @@ class App extends Component {
 							<Paper className={classes.home}>
 								<img
 									className={classes.plumbing}
-									src={require("../images/handshake.jpg")}
+									src={require("./images/handshake.jpg")}
 									alt='plumbing'
 								/>
 								<Typography className={classes.title}>
