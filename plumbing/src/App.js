@@ -28,7 +28,7 @@ const styles = theme => ({
 	toolBar: {
 		display: 'flex',
 		justifyContent: 'space-between',
-		height: 90,
+		height: 100,
 			[theme.breakpoints.down('sm')]: {
 				// backgroundColor: 'blue',
 			},
@@ -240,21 +240,30 @@ class App extends Component {
               <Typography className={classes.heading} variant='h3' gutterBottom>
                 Why Use Joe's Plumbing?
               </Typography>
-          
+
               <div className={classes.columns}>
                <Grid item xs={12} sm={4}>
                   <div className={classes.benefits}>
-                    <h3 className={classes.reason}>Upfront, Flat Rate Pricing <i className="fas fa-wrench"></i></h3>
+                    <h3 className={classes.reason}>
+										Upfront, Flat Rate Pricing
+										<i className="fas fa-wrench"></i>
+										</h3>
                   </div>
                 </Grid>
                 <Grid item xs={12} sm={4}>
                   <div className={classes.benefits}>
-                    <h3 className={classes.reason}>Never an Overtime Charge <i className="fas fa-wrench"></i></h3>
+                    <h3 className={classes.reason}>
+										Never an Overtime Charge
+										<i className="fas fa-wrench"></i>
+										</h3>
                   </div>
                 </Grid>
 								<Grid item xs={12} sm={4}>
                   <div className={classes.benefits}>
-                    <h3 className={classes.reason}>Courtous, Uniformed Professionals <i className="fas fa-wrench"></i></h3>
+                    <h3 className={classes.reason}>
+										Courtous, Uniformed Professionals 
+										<i className="fas fa-wrench"></i>
+										</h3>
                   </div>
                 </Grid>
 							</div>
@@ -295,7 +304,7 @@ class App extends Component {
 						</div>
 					{/* </Grid> */}
 				</Grid>
-				
+
 				<Grid container spacing={24}>
 					<Paper className={classes.footer}>
 						<div className={classes.location}>
@@ -328,7 +337,7 @@ class App extends Component {
 								9:00AM - 5:00PM
 							</Typography>
 						</div>
-						<Button className="webChatAppBtn">Chat!</Button> <iframe className="wcaIFRAME"></iframe>
+						<input className='webChatAppBtn'type="image"/><iframe data-company-id='2' className="wcaIFRAME"></iframe>
 					</Paper>
 				</Grid>
 			</div>
