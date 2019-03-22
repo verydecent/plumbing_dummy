@@ -120,6 +120,9 @@ const styles = theme => ({
 			},
 	},
 	reasons: {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
 		width: '100%',
 		height: 250,
 			[theme.breakpoints.down('sm')]: {
@@ -133,6 +136,7 @@ const styles = theme => ({
 	},
 	columns: {
 		display: 'flex',
+		justify: 'center',
 			[theme.breakpoints.down('sm')]: {
 				flexDirection: 'column',
 			}
@@ -261,7 +265,7 @@ class App extends Component {
 								<Grid item xs={12} sm={4}>
                   <div className={classes.benefits}>
                     <h3 className={classes.reason}>
-										Courtous, Uniformed Professionals 
+										Courteous, Uniformed Professionals 
 										<i className="fas fa-wrench"></i>
 										</h3>
                   </div>
