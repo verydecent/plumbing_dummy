@@ -17,7 +17,7 @@ function enableChattr() {
   wcaIFRAME.style.overflowY = "hidden";
   wcaBtn.style.textAlign = "center";
   wcaBtn.style.verticalAlign = "middle";
-  wcaBtn.src = "https://cdn.icon-icons.com/icons2/72/PNG/256/chat_messages_14395.png";
+  wcaBtn.src = "https://res.cloudinary.com/dvgfmipda/image/upload/v1556220418/nfemeugty961jg0trdam.png";
   wcaBtn.style.position = "fixed";
   wcaBtn.style.borderRadius = "80px";
   wcaBtn.style.width = "75px";
